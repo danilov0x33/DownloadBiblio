@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="154.0" prefWidth="349.0" fx:controller="ru.danilov.dwbiblio.controller.CMainFrame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="16.0" layoutY="24.0" text="URL:" />
+      <Label layoutX="16.0" layoutY="89.0" text="Число страниц:" />
+      <Label layoutX="16.0" layoutY="58.0" text="Название:" />
+      <TextField fx:id="countPage" layoutX="109.0" layoutY="85.0" prefHeight="25.0" prefWidth="226.0" />
+      <TextField fx:id="nameBook" layoutX="76.0" layoutY="54.0" prefHeight="25.0" prefWidth="259.0" />
+      <TextField fx:id="url" layoutX="46.0" layoutY="20.0" prefHeight="25.0" prefWidth="289.0" />
+      <Button fx:id="downloadButton" layoutX="275.0" layoutY="115.0" mnemonicParsing="false" text="Скачать" />
+   </children>
+</AnchorPane>
